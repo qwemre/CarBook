@@ -64,19 +64,19 @@ namespace UdemyCarBook.WebApi.Controllers
             return Ok("Araba Bilgisi Güncellendi");
         }
 
-        //[HttpGet("GetCarWithBrand")]
-        //public IActionResult GetCarWithBrand()
-        //{
-        //    var values = _getCarWithBrandQueryHandler.Handle();
-        //    return Ok(values);
-        //}
+        [HttpGet("GetCarWithBrand")]
+        public IActionResult GetCarWithBrand()
+        {
+            var values = _getCarWithBrandQueryHandler.Handle();
+            return Ok(values);
+        }
 
-        //[HttpGet("GetLast5CarsWithBrandQueryHandler")]
-        //public IActionResult GetLast5CarsWithBrandQueryHandler()
-        //{
-        //    var values = _getLast5CarsWithBrandQueryHandler.Handle();
-        //    return Ok(values);
-        //}
+        [HttpGet("GetLast5CarsWithBrandQueryHandler")]
+        public IActionResult GetLast5CarsWithBrandQueryHandler()
+        {
+            var values = _getLast5CarsWithBrandQueryHandler.Handle();
+            return Ok(values);
+        }
 
     }
 }
