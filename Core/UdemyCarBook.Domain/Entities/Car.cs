@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace UdemyCarBook.Domain.Entities
+﻿namespace UdemyCarBook.Domain.Entities
 {
     public class Car
     {
@@ -21,7 +15,7 @@ namespace UdemyCarBook.Domain.Entities
         public string BigImageUrl { get; set; }
         public List<CarFeature> CarFeatures { get; set; }
         public List<CarDescripotion> CarDescripotions { get; set; }
-        public List<CarPricing> CarPricings{ get; set; }
+        public List<CarPricing> CarPricings { get; set; }
 
 
     }

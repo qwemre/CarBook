@@ -1,9 +1,4 @@
 ﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UdemyCarBook.Application.Features.Mediator.Queries.FooterAddressQueries;
 using UdemyCarBook.Application.Features.Mediator.Results.FooterAddressResults;
 using UdemyCarBook.Application.Interfaces;
@@ -25,7 +20,7 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.FooterAddressHandl
             var value = await _repository.GetByIdAsync(request.Id);
             return new GetFooterAddressByIdQueryResult
             {
-                FooterAddressID= value.FooterAddressID,
+                FooterAddressID = value.FooterAddressID,
                 Address = value.Address,
                 Description = value.Description,
                 Email = value.Email,

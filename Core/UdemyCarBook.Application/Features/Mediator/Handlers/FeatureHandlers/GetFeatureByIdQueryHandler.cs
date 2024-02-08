@@ -1,11 +1,4 @@
 ﻿using MediatR;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UdemyCarBook.Application.Features.CQRS.Results.BrandResults;
 using UdemyCarBook.Application.Features.Mediator.Queries.FeatureQueries;
 using UdemyCarBook.Application.Features.Mediator.Results.FeatureResults;
 using UdemyCarBook.Application.Interfaces;

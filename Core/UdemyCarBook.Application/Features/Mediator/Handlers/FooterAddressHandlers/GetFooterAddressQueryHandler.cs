@@ -1,9 +1,4 @@
 ﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UdemyCarBook.Application.Features.Mediator.Queries.FooterAddressQueries;
 using UdemyCarBook.Application.Features.Mediator.Results.FooterAddressResults;
 using UdemyCarBook.Application.Interfaces;
@@ -29,7 +24,7 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.FooterAddressHandl
                 Description = x.Description,
                 Email = x.Email,
                 Phone = x.Phone,
-                FooterAddressID=x.FooterAddressID,
+                FooterAddressID = x.FooterAddressID,
             }).ToList();
 
 

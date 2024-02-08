@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UdemyCarBook.Application.Features.CQRS.Queries.ContactQueries;
+﻿using UdemyCarBook.Application.Features.CQRS.Queries.ContactQueries;
 using UdemyCarBook.Application.Features.CQRS.Results.ContactResults;
 using UdemyCarBook.Application.Interfaces;
 using UdemyCarBook.Domain.Entities;

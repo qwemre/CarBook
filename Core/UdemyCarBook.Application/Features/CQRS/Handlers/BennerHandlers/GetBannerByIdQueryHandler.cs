@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UdemyCarBook.Application.Features.CQRS.Queries.BennerQueries;
+﻿using UdemyCarBook.Application.Features.CQRS.Queries.BennerQueries;
 using UdemyCarBook.Application.Features.CQRS.Results.BennerResults;
 using UdemyCarBook.Application.Interfaces;
 using UdemyCarBook.Domain.Entities;
@@ -21,7 +16,7 @@ namespace UdemyCarBook.Application.Features.CQRS.Handlers.BennerHandlers
         {
             var values = await _repository.GetByIdAsync(query.Id);
             return new GetBennerByIdQueryResult
-            {         
+            {
                 BannerID = values.BannerID,
                 Description = values.Description,
                 Tittle = values.Tittle,

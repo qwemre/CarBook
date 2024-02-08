@@ -17,7 +17,6 @@
     <Folder Include="Features\Mediator\Commands\CommentCommands\" />
     <Folder Include="Features\Mediator\Commands\TagCloudCommands\" />
     <Folder Include="Features\Mediator\Commands\TestimonialCommands\" />
-    <Folder Include="Features\Mediator\Commands\SocialMediaCommands\" />
     <Folder Include="Features\Mediator\Commands\ReservationCommands\" />
     <Folder Include="Features\Mediator\Commands\ReviewCommands\" />
     <Folder Include="Features\Mediator\Commands\AuthorCommands\" />
@@ -33,7 +32,6 @@
     <Folder Include="Features\Mediator\Handlers\RentACarHandlers\" />
     <Folder Include="Features\Mediator\Handlers\ReservationHandlers\" />
     <Folder Include="Features\Mediator\Handlers\ReviewHandlers\" />
-    <Folder Include="Features\Mediator\Handlers\SocialMediaHandlers\" />
     <Folder Include="Features\Mediator\Handlers\TagCloudHandlers\" />
     <Folder Include="Features\Mediator\Handlers\TestimonialHandlers\" />
     <Folder Include="Features\Mediator\Queries\AppUserQueries\" />
@@ -44,7 +42,6 @@
     <Folder Include="Features\Mediator\Queries\CarPircingQueries\" />
     <Folder Include="Features\Mediator\Queries\RentACarQueries\" />
     <Folder Include="Features\Mediator\Queries\ReviewQueries\" />
-    <Folder Include="Features\Mediator\Queries\SocialMediaQueries\" />
     <Folder Include="Features\Mediator\Queries\StatisticsQueries\" />
     <Folder Include="Features\Mediator\Queries\TagCloudQueries\" />
     <Folder Include="Features\Mediator\Queries\TestimonialQueries\" />
@@ -56,7 +53,6 @@
     <Folder Include="Features\Mediator\Results\CarPircingResults\" />
     <Folder Include="Features\Mediator\Results\RentACarResults\" />
     <Folder Include="Features\Mediator\Results\ReviewResults\" />
-    <Folder Include="Features\Mediator\Results\SocialMediaResults\" />
     <Folder Include="Features\Mediator\Results\StatisticsResults\" />
     <Folder Include="Features\Mediator\Results\TagCloudResults\" />
     <Folder Include="Features\Mediator\Results\TestimonialResults\" />

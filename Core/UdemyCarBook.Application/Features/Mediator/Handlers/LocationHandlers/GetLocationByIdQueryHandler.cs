@@ -1,9 +1,4 @@
 ﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UdemyCarBook.Application.Features.Mediator.Queries.LocationQueries;
 using UdemyCarBook.Application.Features.Mediator.Results.LocationResults;
 using UdemyCarBook.Application.Interfaces;
@@ -25,8 +20,8 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.LocationHandlers
             var values = await _repository.GetByIdAsync(request.Id);
             return new GetLocationByIdQueryResult
             {
-                 LocationID=values.LocationID,
-                 Name=values.Name
+                LocationID = values.LocationID,
+                Name = values.Name
             };
         }
     }

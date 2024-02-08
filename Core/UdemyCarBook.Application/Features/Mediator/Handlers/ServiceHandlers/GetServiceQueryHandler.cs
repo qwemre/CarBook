@@ -1,12 +1,5 @@
 ﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UdemyCarBook.Application.Features.Mediator.Queries.PricingQueries;
 using UdemyCarBook.Application.Features.Mediator.Queries.ServiceQueries;
-using UdemyCarBook.Application.Features.Mediator.Results.PricingResults;
 using UdemyCarBook.Application.Features.Mediator.Results.ServiceResults;
 using UdemyCarBook.Application.Interfaces;
 using UdemyCarBook.Domain.Entities;
@@ -24,13 +17,13 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.ServiceHandlers
         public async Task<List<GetServiceQueryResult>> Handle(GetServiceQuery request, CancellationToken cancellationToken)
         {
             var values = await _repository.GetAllAsync();
-            return values.Select(x=>new GetServiceQueryResult
+            return values.Select(x => new GetServiceQueryResult
             {
                 Description = x.Description,
                 IconUrl = x.IconUrl,
                 ServiceID = x.ServiceID,
                 Tittle = x.Tittle
-            }).ToList();    
+            }).ToList();
         }
     }
 }

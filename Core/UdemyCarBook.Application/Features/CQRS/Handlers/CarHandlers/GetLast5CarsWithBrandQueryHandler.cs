@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UdemyCarBook.Application.Features.CQRS.Results.CarResults;
+﻿using UdemyCarBook.Application.Features.CQRS.Results.CarResults;
 using UdemyCarBook.Application.Interfaces.CarInterfaces;
 
 namespace UdemyCarBook.Application.Features.CQRS.Handlers.CarHandlers
