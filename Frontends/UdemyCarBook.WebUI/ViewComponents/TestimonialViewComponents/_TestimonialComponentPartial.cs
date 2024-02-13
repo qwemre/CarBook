@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using UdmyCarBook.Dto.AboutDtos;
 using UdmyCarBook.Dto.TestimonailDtos;
 
 namespace UdemyCarBook.WebUI.ViewComponents.TestimonialViewComponents
@@ -16,7 +15,7 @@ namespace UdemyCarBook.WebUI.ViewComponents.TestimonialViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var client=_httpClientFactory.CreateClient();
+            var client = _httpClientFactory.CreateClient();
             var ResponseMessage = await client.GetAsync("https://localhost:7292/api/Testimonials");
             if (ResponseMessage.IsSuccessStatusCode)
             {

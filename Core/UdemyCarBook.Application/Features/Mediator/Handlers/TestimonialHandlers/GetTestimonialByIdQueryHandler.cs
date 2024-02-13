@@ -1,9 +1,4 @@
 ﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UdemyCarBook.Application.Features.Mediator.Queries.TestimonialQueries;
 using UdemyCarBook.Application.Features.Mediator.Results.TestimonialResults;
 using UdemyCarBook.Application.Interfaces;
@@ -29,7 +24,7 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.TestimonialHandler
                 ImageUrl = values.ImageUrl,
                 Name = values.Name,
                 Title = values.Title,
-                TestimonialID=values.TestimonialID,
+                TestimonialID = values.TestimonialID,
             };
         }
     }
