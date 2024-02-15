@@ -2,7 +2,6 @@
 using Newtonsoft.Json;
 using System.Text;
 using UdmyCarBook.Dto.ContactDtos;
-using UdmyCarBook.Dto.ServiceDtos;
 
 namespace UdemyCarBook.WebUI.Controllers
 {
@@ -18,20 +17,20 @@ namespace UdemyCarBook.WebUI.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            
+
             return View();
         }
         [HttpPost]
         public async Task<IActionResult> Index(CreateContactDto createContactDto)
         {
             var client = _httpClientFactory.CreateClient();
-            createContactDto.SendDate=DateTime.Now;
+            createContactDto.SendDate = DateTime.Now;
             var jsonData = JsonConvert.SerializeObject(createContactDto);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
             var responseMessage = await client.PostAsync("https://localhost:7292/api/Contacts", stringContent);
             if (responseMessage.IsSuccessStatusCode)
             {
-                return RedirectToAction("Index","Default");
+                return RedirectToAction("Index", "Default");
             }
             return View();
         }

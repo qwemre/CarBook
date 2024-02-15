@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using UdmyCarBook.Dto.FooterAddressDtos;
-using UdmyCarBook.Dto.TestimonailDtos;
 
 namespace UdemyCarBook.WebUI.ViewComponents.FooterAddressViewComponents
 {
-    public class _FooterAddressComponentPartial:ViewComponent
+    public class _FooterAddressComponentPartial : ViewComponent
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
