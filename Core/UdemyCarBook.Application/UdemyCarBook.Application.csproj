@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <Folder Include="Features\CQRS\Commands\AboutCommands\BennerCommands\" />
-    <Folder Include="Features\Mediator\Commands\BlogCommands\" />
     <Folder Include="Features\Mediator\Commands\CarFeatureCommands\" />
     <Folder Include="Features\Mediator\Commands\CommentCommands\" />
     <Folder Include="Features\Mediator\Commands\TagCloudCommands\" />
@@ -20,7 +19,6 @@
     <Folder Include="Features\Mediator\Commands\ReviewCommands\" />
     <Folder Include="Features\Mediator\Commands\AppUserCommands\" />
     <Folder Include="Features\Mediator\Handlers\AppUserHandlers\" />
-    <Folder Include="Features\Mediator\Handlers\BlogHandlers\" />
     <Folder Include="Features\Mediator\Handlers\CarFeatureHandlers\" />
     <Folder Include="Features\Mediator\Handlers\CommentHandlers\" />
     <Folder Include="Features\Mediator\Handlers\CarDescriptionHandlers\" />
@@ -31,7 +29,6 @@
     <Folder Include="Features\Mediator\Handlers\ReviewHandlers\" />
     <Folder Include="Features\Mediator\Handlers\TagCloudHandlers\" />
     <Folder Include="Features\Mediator\Queries\AppUserQueries\" />
-    <Folder Include="Features\Mediator\Queries\BlogQueries\" />
     <Folder Include="Features\Mediator\Queries\CarDescriptionQueries\" />
     <Folder Include="Features\Mediator\Queries\CarFeatureQueries\" />
     <Folder Include="Features\Mediator\Queries\CarPircingQueries\" />
@@ -40,7 +37,6 @@
     <Folder Include="Features\Mediator\Queries\StatisticsQueries\" />
     <Folder Include="Features\Mediator\Queries\TagCloudQueries\" />
     <Folder Include="Features\Mediator\Results\AppUserResults\" />
-    <Folder Include="Features\Mediator\Results\BlogResults\" />
     <Folder Include="Features\Mediator\Results\CarDescriptionResults\" />
     <Folder Include="Features\Mediator\Results\CarFeatureResults\" />
     <Folder Include="Features\Mediator\Results\CarPircingResults\" />
