@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UdmyCarBook.Dto.BlogDtos
 {
-    public class ResultBlogDto
+    public class ResultLast3BlogWithAuthorsDto
     {
         public int BlogID { get; set; }
         public string Title { get; set; }
@@ -14,5 +14,6 @@ namespace UdmyCarBook.Dto.BlogDtos
         public string CoverImageUrl { get; set; }
         public DateTime CreatedDate { get; set; }
         public int CategoryID { get; set; }
+        public string AuthorName { get; set; }
     }
 }

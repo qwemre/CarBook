@@ -22,7 +22,6 @@
     <Folder Include="Features\Mediator\Handlers\CarFeatureHandlers\" />
     <Folder Include="Features\Mediator\Handlers\CommentHandlers\" />
     <Folder Include="Features\Mediator\Handlers\CarDescriptionHandlers\" />
-    <Folder Include="Features\Mediator\Handlers\CarPircingHandlers\" />
     <Folder Include="Features\Mediator\Handlers\StatisticsHandlers\" />
     <Folder Include="Features\Mediator\Handlers\RentACarHandlers\" />
     <Folder Include="Features\Mediator\Handlers\ReservationHandlers\" />
@@ -31,7 +30,6 @@
     <Folder Include="Features\Mediator\Queries\AppUserQueries\" />
     <Folder Include="Features\Mediator\Queries\CarDescriptionQueries\" />
     <Folder Include="Features\Mediator\Queries\CarFeatureQueries\" />
-    <Folder Include="Features\Mediator\Queries\CarPircingQueries\" />
     <Folder Include="Features\Mediator\Queries\RentACarQueries\" />
     <Folder Include="Features\Mediator\Queries\ReviewQueries\" />
     <Folder Include="Features\Mediator\Queries\StatisticsQueries\" />
@@ -39,7 +37,6 @@
     <Folder Include="Features\Mediator\Results\AppUserResults\" />
     <Folder Include="Features\Mediator\Results\CarDescriptionResults\" />
     <Folder Include="Features\Mediator\Results\CarFeatureResults\" />
-    <Folder Include="Features\Mediator\Results\CarPircingResults\" />
     <Folder Include="Features\Mediator\Results\RentACarResults\" />
     <Folder Include="Features\Mediator\Results\ReviewResults\" />
     <Folder Include="Features\Mediator\Results\StatisticsResults\" />
