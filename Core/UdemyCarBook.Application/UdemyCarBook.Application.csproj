@@ -14,7 +14,6 @@
     <Folder Include="Features\CQRS\Commands\AboutCommands\BennerCommands\" />
     <Folder Include="Features\Mediator\Commands\CarFeatureCommands\" />
     <Folder Include="Features\Mediator\Commands\CommentCommands\" />
-    <Folder Include="Features\Mediator\Commands\TagCloudCommands\" />
     <Folder Include="Features\Mediator\Commands\ReservationCommands\" />
     <Folder Include="Features\Mediator\Commands\ReviewCommands\" />
     <Folder Include="Features\Mediator\Commands\AppUserCommands\" />
@@ -26,21 +25,18 @@
     <Folder Include="Features\Mediator\Handlers\RentACarHandlers\" />
     <Folder Include="Features\Mediator\Handlers\ReservationHandlers\" />
     <Folder Include="Features\Mediator\Handlers\ReviewHandlers\" />
-    <Folder Include="Features\Mediator\Handlers\TagCloudHandlers\" />
     <Folder Include="Features\Mediator\Queries\AppUserQueries\" />
     <Folder Include="Features\Mediator\Queries\CarDescriptionQueries\" />
     <Folder Include="Features\Mediator\Queries\CarFeatureQueries\" />
     <Folder Include="Features\Mediator\Queries\RentACarQueries\" />
     <Folder Include="Features\Mediator\Queries\ReviewQueries\" />
     <Folder Include="Features\Mediator\Queries\StatisticsQueries\" />
-    <Folder Include="Features\Mediator\Queries\TagCloudQueries\" />
     <Folder Include="Features\Mediator\Results\AppUserResults\" />
     <Folder Include="Features\Mediator\Results\CarDescriptionResults\" />
     <Folder Include="Features\Mediator\Results\CarFeatureResults\" />
     <Folder Include="Features\Mediator\Results\RentACarResults\" />
     <Folder Include="Features\Mediator\Results\ReviewResults\" />
     <Folder Include="Features\Mediator\Results\StatisticsResults\" />
-    <Folder Include="Features\Mediator\Results\TagCloudResults\" />
   </ItemGroup>
 
   <ItemGroup>
