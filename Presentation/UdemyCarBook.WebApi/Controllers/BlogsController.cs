@@ -61,5 +61,12 @@ namespace UdemyCarBook.WebApi.Controllers
             return Ok(values);
         }
 
+        [HttpGet("GetBlogByAuthorId")]
+        public async Task<IActionResult> GetBlogByAuthorId(int id)
+        {
+            var values = await _mediator.Send(new GetBlogByAuthorIdQuery(id));
+            return Ok(values);
+        }
+
     }
 }

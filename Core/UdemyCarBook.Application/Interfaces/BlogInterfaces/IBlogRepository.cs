@@ -11,6 +11,8 @@ namespace UdemyCarBook.Application.Interfaces.BlogInterfaces
     {
         public List<Blog> GetLast3BlogWithAuthors();
         public List<Blog> GetAllBlogWithAuthors();
+        public List<Blog> GetBlogByAuthorId(int id);
+
 
     }
 }
