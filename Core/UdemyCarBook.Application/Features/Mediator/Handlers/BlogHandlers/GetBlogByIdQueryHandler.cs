@@ -21,13 +21,13 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.BlogHandlers
             return new GetBlogByIdQueryResult
             {
                 BlogID = values.BlogID,
-               Title = values.Title,
-               AuthorID = values.AuthorID,
-               CategoryID=values.CategoryID,
-               CoverImageUrl=values.CoverImageUrl,
-               CreatedDate = values.CreatedDate,
-               Description=values.Description
-                
+                Title = values.Title,
+                AuthorID = values.AuthorID,
+                CategoryID = values.CategoryID,
+                CoverImageUrl = values.CoverImageUrl,
+                CreatedDate = values.CreatedDate,
+                Description = values.Description
+
             };
         }
     }

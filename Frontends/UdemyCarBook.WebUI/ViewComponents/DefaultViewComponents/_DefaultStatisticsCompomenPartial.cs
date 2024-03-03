@@ -2,7 +2,7 @@
 
 namespace UdemyCarBook.WebUI.ViewComponents.DefaultViewComponents
 {
-    public class _DefaultStatisticsCompomenPartial:ViewComponent
+    public class _DefaultStatisticsCompomenPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {

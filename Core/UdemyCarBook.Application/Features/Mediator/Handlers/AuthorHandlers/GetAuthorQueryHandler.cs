@@ -22,8 +22,8 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.AuthorHandlers
             {
                 AuthorID = x.AuthorID,
                 Name = x.Name,
-                Description= x.Description,
-                ImageUrl=x.ImageUrl
+                Description = x.Description,
+                ImageUrl = x.ImageUrl
             }).ToList();
         }
     }

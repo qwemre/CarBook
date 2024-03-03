@@ -4,7 +4,7 @@ using UdmyCarBook.Dto.BannerDtos;
 
 namespace UdemyCarBook.WebUI.ViewComponents.DefaultViewComponents
 {
-    public class _DefaultCoverUILayoutComponentPartial:ViewComponent
+    public class _DefaultCoverUILayoutComponentPartial : ViewComponent
     {
 
         private readonly IHttpClientFactory _httpClientFactory;

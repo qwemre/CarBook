@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UdemyCarBook.Application.Interfaces.TagCloudInterfaces;
+﻿using UdemyCarBook.Application.Interfaces.TagCloudInterfaces;
 using UdemyCarBook.Domain.Entities;
 using UdemyCarBook.Persistence.Context;
 

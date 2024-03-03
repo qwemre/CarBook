@@ -22,9 +22,9 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.AuthorHandlers
             {
                 AuthorID = values.AuthorID,
                 Name = values.Name,
-                Description=values.Description,
-                 ImageUrl=values.ImageUrl,
-                
+                Description = values.Description,
+                ImageUrl = values.ImageUrl,
+
             };
         }
     }

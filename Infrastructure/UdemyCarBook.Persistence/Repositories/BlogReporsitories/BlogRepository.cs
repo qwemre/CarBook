@@ -1,9 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UdemyCarBook.Application.Interfaces.BlogInterfaces;
 using UdemyCarBook.Domain.Entities;
 using UdemyCarBook.Persistence.Context;
@@ -33,7 +28,7 @@ namespace UdemyCarBook.Persistence.Repositories.BlogReporsitories
 
         public List<Blog> GetLast3BlogWithAuthors()
         {
-            var values=_context.Blogs.Include(x=>x.Author).OrderByDescending(x => x.BlogID).Take(3).ToList();
+            var values = _context.Blogs.Include(x => x.Author).OrderByDescending(x => x.BlogID).Take(3).ToList();
             return values;
         }
     }

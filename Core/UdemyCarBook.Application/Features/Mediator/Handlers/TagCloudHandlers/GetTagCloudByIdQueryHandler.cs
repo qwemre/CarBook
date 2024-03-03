@@ -21,8 +21,8 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.TagCloudHandlers
             return new GetTagCloudByIdQueryResult
             {
                 TagCloudID = values.TagCloudID,
-               Title= values.Title,
-               BlogID=values.BlogID
+                Title = values.Title,
+                BlogID = values.BlogID
             };
         }
     }

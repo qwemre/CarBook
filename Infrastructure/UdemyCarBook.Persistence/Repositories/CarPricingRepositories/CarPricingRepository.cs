@@ -1,9 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UdemyCarBook.Application.Interfaces.CarPricingInterfaces;
 using UdemyCarBook.Domain.Entities;
 using UdemyCarBook.Persistence.Context;
@@ -21,7 +16,7 @@ namespace UdemyCarBook.Persistence.Repositories.CarPricingRepositories
 
         public List<CarPricing> GetCarPricingWithCars()
         {
-            var values = _context.CarPricings.Include(x => x.Car).ThenInclude(y => y.Brand).Include(z => z.Pricing).Where(z=>z.PricingID==2).ToList();
+            var values = _context.CarPricings.Include(x => x.Car).ThenInclude(y => y.Brand).Include(z => z.Pricing).Where(z => z.PricingID == 2).ToList();
             return values;
         }
 

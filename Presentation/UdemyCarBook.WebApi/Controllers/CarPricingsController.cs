@@ -1,8 +1,6 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using UdemyCarBook.Application.Features.Mediator.Queries.CarPircingQueries;
-using UdemyCarBook.Application.Features.Mediator.Queries.LocationQueries;
 
 namespace UdemyCarBook.WebApi.Controllers
 {

@@ -21,11 +21,11 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.BlogHandlers
             return values.Select(x => new GetBlogQueryResult
             {
                 BlogID = x.BlogID,
-               AuthorID = x.AuthorID,
-                CategoryID=x.CategoryID,
+                AuthorID = x.AuthorID,
+                CategoryID = x.CategoryID,
                 CoverImageUrl = x.CoverImageUrl,
                 CreatedDate = x.CreatedDate,
-                Title=x.Title
+                Title = x.Title
             }).ToList();
         }
     }
