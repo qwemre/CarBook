@@ -49,5 +49,12 @@ namespace UdemyCarBook.WebApi.Controllers
             var values = _commentsRepository.GetById(id);
             return Ok(values);
         }
+
+        [HttpGet("CommentListByBlog")]
+        public IActionResult CommentListByBlog(int id)
+        {
+            var values = _commentsRepository.GetCommentByBlogId(id);
+            return Ok(values);
+        }
     }
 }
