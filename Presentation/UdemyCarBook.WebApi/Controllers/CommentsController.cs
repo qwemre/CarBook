@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using UdemyCarBook.Application.Features.RepositoryPattern;
 using UdemyCarBook.Domain.Entities;
 
@@ -29,9 +28,9 @@ namespace UdemyCarBook.WebApi.Controllers
         }
 
         [HttpDelete]
-        public IActionResult RemoveComment(int id) 
+        public IActionResult RemoveComment(int id)
         {
-            var value2=_commentsRepository.GetById(id);
+            var value2 = _commentsRepository.GetById(id);
             _commentsRepository.Remove(value2);
             return Ok("Yorum Başarıyla Silindi");
         }

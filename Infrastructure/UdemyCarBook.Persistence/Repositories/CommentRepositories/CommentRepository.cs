@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UdemyCarBook.Application.Features.RepositoryPattern;
+﻿using UdemyCarBook.Application.Features.RepositoryPattern;
 using UdemyCarBook.Domain.Entities;
 using UdemyCarBook.Persistence.Context;
 
@@ -20,7 +15,7 @@ namespace UdemyCarBook.Persistence.Repositories.CommentRepositories
 
         public void Create(Comment entity)
         {
-           _context.Comments.Add(entity);
+            _context.Comments.Add(entity);
             _context.SaveChanges();
         }
 
