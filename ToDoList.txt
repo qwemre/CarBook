@@ -1,0 +1,3 @@
+
+Günlük Ortalama Araç Kiralama Fiyatý
+Select Avg(Amount) from CarPricings where PricingID=(Select PricingID From Pricings Where Name='Günlük')|

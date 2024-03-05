@@ -21,7 +21,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyCarBook.WebUI", "Frontends\UdemyCarBook.WebUI\UdemyCarBook.WebUI.csproj", "{936C9C5B-7BA1-46E2-9350-13FD5E18FD09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdmyCarBook.Dto", "Frontends\UdmyCarBook.Dto\UdmyCarBook.Dto.csproj", "{DE46CB2F-0464-4744-A3B7-77B787124808}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdmyCarBook.Dto", "Frontends\UdmyCarBook.Dto\UdmyCarBook.Dto.csproj", "{DE46CB2F-0464-4744-A3B7-77B787124808}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToDoList", "ToDoList", "{9B5E518A-4643-4CF7-AC9C-3F462A5717B7}"
+	ProjectSection(SolutionItems) = preProject
+		ToDoList.txt = ToDoList.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
