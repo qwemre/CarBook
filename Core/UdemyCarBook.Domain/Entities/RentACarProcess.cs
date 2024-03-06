@@ -27,8 +27,8 @@ namespace UdemyCarBook.Domain.Entities
 
         [DataType(DataType.Time)]
         public TimeSpan DropOffTime { get; set; }
-        //public int CustomerID { get; set; }
-        //public Customer Customer { get; set; }
+        public int CustomerID { get; set; }
+        public Customer Customer { get; set; }
         public string PickUpDescription { get; set; }
         public string DropOffDescription { get; set; }
         public decimal TotalPrice { get; set; }
