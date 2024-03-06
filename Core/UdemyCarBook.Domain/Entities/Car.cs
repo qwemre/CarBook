@@ -16,6 +16,8 @@
         public List<CarFeature> CarFeatures { get; set; }
         public List<CarDescripotion> CarDescripotions { get; set; }
         public List<CarPricing> CarPricings { get; set; }
+        public List<RentACar> RentACars{ get; set; }
+
 
 
     }

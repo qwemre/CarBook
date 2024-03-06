@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UdemyCarBook.Persistence.Context;
 
@@ -11,9 +12,11 @@ using UdemyCarBook.Persistence.Context;
 namespace UdemyCarBook.Persistence.Migrations
 {
     [DbContext(typeof(CarBookContext))]
-    partial class CarBookContextModelSnapshot : ModelSnapshot
+    [Migration("20240306092746_add_rentacars")]
+    partial class add_rentacars
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -449,14 +452,17 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.Property<int>("CarId")
                         .HasColumnType("int");
 
-                    b.Property<int>("LocationId")
+                    b.Property<int>("LocationID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PickUpLocationId")
                         .HasColumnType("int");
 
                     b.HasKey("RentACarId");
 
                     b.HasIndex("CarId");
 
-                    b.HasIndex("LocationId");
+                    b.HasIndex("LocationID");
 
                     b.ToTable("RentACars");
                 });
@@ -662,7 +668,7 @@ namespace UdemyCarBook.Persistence.Migrations
 
                     b.HasOne("UdemyCarBook.Domain.Entities.Location", "Location")
                         .WithMany("RentACars")
-                        .HasForeignKey("LocationId")
+                        .HasForeignKey("LocationID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
