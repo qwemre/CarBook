@@ -24,7 +24,7 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.CarPircingHandlers
                 CoverImageUrl = x.Car.CoverImageUrl,
                 CarPricingID = x.CarPricingID,
                 Model = x.Car.Model,
-                CarId=x.CarID
+                CarId = x.CarID
             }).ToList();
         }
     }
