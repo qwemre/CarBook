@@ -25,10 +25,13 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.RentACarHandlers
 			var values = await _repository.GetByFilterAsync(x => x.LocationId == request.LocationID && x.Available == true);
 			var results = values.Select(y => new GetRentACarQueryResult
 			{
-				CarID = y.CarId,
-				
-				
-			}).ToList();
+				CarId = y.CarId,
+                Brand = y.Car.Brand.Name,
+                Model = y.Car.Model,
+                CoverImageUrl = y.Car.CoverImageUrl
+
+
+            }).ToList();
 			return results;
 		}
 	}
