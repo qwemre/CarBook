@@ -8,5 +8,8 @@
         void Remove(T entity);
         T GetById(int id);
         List<T> GetCommentByBlogId(int id);
+
+        public int GetCountCommentByBlog(int id);
+
     }
 }

@@ -13,12 +13,10 @@
   <ItemGroup>
     <Folder Include="Features\CQRS\Commands\AboutCommands\BennerCommands\" />
     <Folder Include="Features\Mediator\Commands\CarFeatureCommands\" />
-    <Folder Include="Features\Mediator\Commands\CommentCommands\" />
     <Folder Include="Features\Mediator\Commands\ReviewCommands\" />
     <Folder Include="Features\Mediator\Commands\AppUserCommands\" />
     <Folder Include="Features\Mediator\Handlers\AppUserHandlers\" />
     <Folder Include="Features\Mediator\Handlers\CarFeatureHandlers\" />
-    <Folder Include="Features\Mediator\Handlers\CommentHandlers\" />
     <Folder Include="Features\Mediator\Handlers\CarDescriptionHandlers\" />
     <Folder Include="Features\Mediator\Handlers\ReviewHandlers\" />
     <Folder Include="Features\Mediator\Queries\AppUserQueries\" />
