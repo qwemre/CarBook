@@ -57,7 +57,7 @@ namespace UdemyCarBook.Persistence.Repositories.CommentRepositories
 
         public int GetCountCommentByBlog(int id)
         {
-            return _context.Comments.Where(x=>x.BlogID==id).Count();
+            return _context.Comments.Where(x => x.BlogID == id).Count();
         }
     }
 }
