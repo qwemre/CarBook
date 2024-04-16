@@ -12,17 +12,10 @@
 
   <ItemGroup>
     <Folder Include="Features\CQRS\Commands\AboutCommands\BennerCommands\" />
-    <Folder Include="Features\Mediator\Commands\ReviewCommands\" />
     <Folder Include="Features\Mediator\Commands\AppUserCommands\" />
     <Folder Include="Features\Mediator\Handlers\AppUserHandlers\" />
-    <Folder Include="Features\Mediator\Handlers\CarDescriptionHandlers\" />
-    <Folder Include="Features\Mediator\Handlers\ReviewHandlers\" />
     <Folder Include="Features\Mediator\Queries\AppUserQueries\" />
-    <Folder Include="Features\Mediator\Queries\CarDescriptionQueries\" />
-    <Folder Include="Features\Mediator\Queries\ReviewQueries\" />
     <Folder Include="Features\Mediator\Results\AppUserResults\" />
-    <Folder Include="Features\Mediator\Results\CarDescriptionResults\" />
-    <Folder Include="Features\Mediator\Results\ReviewResults\" />
   </ItemGroup>
 
   <ItemGroup>
