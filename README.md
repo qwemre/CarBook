@@ -1,21 +1,33 @@
-# CarBook
+# CarBook: Vehicle Rental System with AspNet Core Onion Architecture
 
-CarBook is a project developed using AspNet Core Api and Onion Architecture. This project is centered around a "Car Rental" system, based on real-world scenarios.
 
-## Project Overview
+### Summary:
 
-CarBook project encompasses the following key aspects:
+The BookCar project develops a "Vehicle Rental" system based on the Onion Architecture using AspNet Core API. Design patterns such as CQRS, Mediator, and Repository are implemented to enhance modularity and testability. Additionally, modern technologies including JSON Web Token, SignalR, Pivot Table, DTO, and Fluent Validation are utilized in the project.
 
-- **Introduction to Onion Architecture:** The project offers a comprehensive overview of Onion Architecture through AspNet Core Api.
-- **Design Patterns:** Effective implementation of design patterns such as CQRS, Mediator, Repository is emphasized throughout the project.
-- **Project Theme:** The core theme of the project revolves around a "Car Rental" system, where users can rent, return cars, and access information about available cars.
+### Contributions:
 
-## Technologies and Libraries Used
+- Proficiency in developing web APIs with AspNet Core Onion Architecture
+- Implementation skills in design patterns like CQRS, Mediator, and Repository
+- Ability to use modern technologies such as JSON Web Token, SignalR, Pivot Table, DTO, and Fluent Validation
+- Experience in developing and testing a real-world industry project
 
-The project leverages several technologies and libraries including:
+### Technical Skills:
 
-- **Json Web Token:** Used for authentication and authorization.
-- **SignalR:** Employed for real-time communication and updates.
-- **Pivot Table:** Utilized for dynamic data analysis.
-- **Dto:** Used for creating data transfer objects.
-- **Fluent Validation:** Implemented for input data validation.
+- AspNet Core
+- C#
+- Onion Architecture
+- CQRS
+- Mediator
+- Repository
+- JSON Web Token
+- SignalR
+- Pivot Table
+- DTO
+- Fluent Validation
+
+### Achievements:
+
+- In-depth knowledge of AspNet Core Onion Architecture and design patterns
+- Proficiency in using modern web development technologies
+- Experience in developing and testing a real-world industry project
